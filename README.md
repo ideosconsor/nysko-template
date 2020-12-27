@@ -1,2 +1,2 @@
 # nysko-template
-Template created with HTML, Bulma CSS &amp; JS
+Template created with HTML, No framework CSS &amp; JS
