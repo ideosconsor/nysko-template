@@ -1,0 +1,28 @@
+// SCSS SOURCE
+@import 'partials/_variables';
+@import 'partials/_colors';
+@import 'partials/_grid';
+
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+}
+
+.conteneur {
+    max-width: $width-conteneur;
+    width: 100%;
+    margin: auto;
+    padding: $padding-conteneur;
+}
+
+@import 'partials/_blockFooter';
+@import 'partials/_blockHeader';
+@import 'partials/_blockNavbar';
+@import 'partials/_blockSection';
+

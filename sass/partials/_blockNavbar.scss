@@ -1,0 +1,66 @@
+// NAVBAR CSS
+$text-decoration__navbar: none;
+$text-weight__navbar: 300;
+$text-size__navbar: 1.1rem;
+
+@media screen and (min-width: $breakpointphone){
+    
+    $line-height__navbar: 4rem;
+    
+    .nysko__navbar ul {
+        list-style-type: none;
+    }
+    .nysko__navbar ul li {
+        line-height: $line-height__navbar;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 4rem;
+    }
+    .nysko__navbar ul li a {
+        color: $white-color;
+        text-decoration: $text-decoration__navbar;
+        font-weight: $text-weight__navbar;
+        font-size: $text-size__navbar;
+    }
+    .nysko__navbar ul li a:hover {
+        color: $secondary-color;
+    }
+
+    .nysko__navbar {
+        background-color: $primary-color;
+        color: $white-color;
+    }
+}
+
+@media screen and (max-width: $breakpointphone){
+
+    $line-height__navbar: 2rem;
+
+    .nysko__navbar ul {
+        list-style-type: none;
+        padding: 1rem 0;
+    }
+    .nysko__navbar ul li {
+        line-height: $line-height__navbar;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 4rem;
+    }
+    .nysko__navbar ul li a {
+        color: $white-color;
+        text-decoration: $text-decoration__navbar;
+        font-weight: $text-weight__navbar;
+        font-size: $text-size__navbar;
+    }
+    .nysko__navbar ul li a:hover {
+        color: $secondary-color;
+    }
+
+    .nysko__navbar {
+        background-color: $primary-color;
+        color: $white-color;
+    }
+}
+// NAVBAR CSS
